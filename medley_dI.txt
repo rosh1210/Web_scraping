@@ -4,9 +4,41 @@ https://bitbucket-eng-sjc1.cisco.com/bitbucket/projects/QDNA/repos/medley/browse
 @pytest.mark.blr
 private/automated_tc_dev_inventory
 feature/frontend_medley_migration_kb
-
-
-
-
 make changes in device_inventory.py
 push it in release1.4
+
+
+History
+-----------
+mkdir medley_release_1.4
+ 1252  cd medley_release_1.4/
+ 1253  git status
+ 1254  git clone ssh://git@bitbucket-eng-sjc1.cisco.com:7999/qdna/medley.git -b private/medley_device_inventory_release_1.4
+ 1255  ls
+ 1256  git status
+ 1257  history
+ 1258  git clone ssh://git@bitbucket-eng-sjc1.cisco.com:7999/qdna/medley.git -b private/medley_device_inventory_release_1.4
+ 1259  git status
+ 1260  ls
+ 1261  cd medley/
+ 1262  LS
+ 1263  ls
+ 1264  cd medley/
+ 1265  ls
+ 1266  git status
+ 1267  history
+ 1268  git status
+ 1269  git add helpers/frontend/apps/device_inventory/device_inventory.py 
+ 1270  git commit -m "release 1.4 medley device_inventory.py"
+ 1271  git status
+ 1272  git push origin private/medley_device_inventory_release_1.4 
+ 1273  git status
+ 1274  clear
+ 1275  git status
+ 1276  git add helpers/frontend/apps/device_inventory/device_inventory.py 
+ 1277  git status
+ 1278  history
+ 1279  git commit -m "medley device_inventory.py removed print statements"
+ 1280  git push origin private/medley_device_inventory_release_1.4 
+
+
