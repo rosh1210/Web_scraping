@@ -1,0 +1,12 @@
+------ MEDLEY DEVICE INVENTORY------------
+https://bitbucket-eng-sjc1.cisco.com/bitbucket/projects/QDNA/repos/medley/browse/medley/helpers/frontend/apps/device_inventory/device_inventory.py
+@PYTEST.MARK.BLR
+@pytest.mark.blr
+private/automated_tc_dev_inventory
+feature/frontend_medley_migration_kb
+
+
+
+
+make changes in device_inventory.py
+push it in release1.4
