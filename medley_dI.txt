@@ -11,11 +11,11 @@ push it in release1.4
 History
 -----------
 mkdir medley_release_1.4
- 1252  cd medley_release_1.4/
- 1253  git status
- 1254  git clone ssh://git@bitbucket-eng-sjc1.cisco.com:7999/qdna/medley.git -b private/medley_device_inventory_release_1.4
- 1255  ls
- 1256  git status
+   cd medley_release_1.4/
+   git status
+   git clone ssh://git@bitbucket-eng-sjc1.cisco.com:7999/qdna/medley.git -b private/medley_device_inventory_release_1.4
+   ls
+   git status
  1257  history
  1258  git clone ssh://git@bitbucket-eng-sjc1.cisco.com:7999/qdna/medley.git -b private/medley_device_inventory_release_1.4
  1259  git status
