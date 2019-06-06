@@ -1,0 +1,73 @@
+================ GIT DOCUMENT ======================
+
+Navigate to the path of folder you want to git
+)git init
+
+
+cd ProjectsDone/
+pwd
+git init
+ls -la
+clear
+git add .
+git commit -m "This is the st commit"
+git status
+git add .
+git status
+git commit -m "Medley usage doc"
+git log --author="Rosh"
+git log --author="Roshni"
+clear
+git status
+ls
+git log
+clear
+git status
+    git add .
+    git status
+    git commit -m "Both files content has been changed and now commiting new file"
+    git status
+    clear
+    git diff
+    git diff
+    git add .
+    git status
+    git commit "mdley file changed"
+    git commit -m "mdley file changed"
+    clear
+    ls
+    ls
+    git status
+    git add .
+    git status
+    git commit -m "new file added"
+    git status
+    git rm filetodelete.txt
+    git status
+    ls
+    git commit -m "this is the point of time where we are deleteing a file"
+    git add renamed.txt
+    git status
+    git add renamedfile.txt
+    git rm file.txt
+    git status
+    git commit -m "file renamed from file to renamedfile"
+    clear
+    ls
+    git mv medley_dI.txt medley_device_inventory.txt
+    git status
+    ls
+ git status
+    ls
+    git commit -m "Renamed medley_DI.txt to medley_device_inventory"
+    mkdir checking
+    ls
+    git mv renamedfile.txt checking/renamed_inside_checking.txt
+    ls
+    cd checking/
+    ls
+    git status
+    git commit -m "Renamed the file renamedfile.txt to renamed_inside_checking and moved to a new folder"
+    git status
+
+
