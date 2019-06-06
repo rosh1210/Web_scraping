@@ -1,7 +1,7 @@
 ================ GIT DOCUMENT ======================
 
 Navigate to the path of folder you want to git
-)git init
+)git init:- to get into git virtualenv
 
 
 cd ProjectsDone/
