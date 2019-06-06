@@ -1,0 +1,50 @@
+========== WEB SCRAPING ======================
+
+
+Project folder- 
+	webscraper.py
+	parsedata.py
+	data:-The data will be what we’ve retrieved from the web
+
+
+Project flow-
+
+1)HTML Data website ---> 2) Collect data ----> 3) Saved data(JSON)
+4)Parse data(python)
+
+Virtual environment:-
+
+two libraries:-
+1) Beautiful soup
+2) Requests:-The Request library allows us to make requests to urls, and access the data on those HTML pages
+
+pip install virtualenv
+virtualenv --version
+virtualenv my_name
+(a folder with my_name will be created)
+virtualenv_name\Scripts\activate.bat
+(Remember to activate the relevant virtual environment every time you work on the project)
+You can see the env activated
+
+pip install bs4
+pip install requests
+
+Importing Installed Libraries:
+The very first thing that we’ll need to do is let Python know that we’re actually going to use the Libraries that we just installed
+(from bs4 import BeautifulSoup
+(import requests
+
+Python’s Requests Library
+
+URL, RESPONSE & CONTENT.
+we will be scraping fake twitter http://ethans_fake_twitter_site.surge.sh/
+
+Selectors in Beautiful Soup
+-------------------------------
+1) We want all the tweets then we need selector like this
+tweet = content.findAll('p', attrs={"class": "content"}).text
+print tweet
+Basically the ‘p’, attrs={“class”: “content”} is saying, “we want to select the all of the paragraph tags <p>, but only the ones which have the class named “content”.
+
+
+

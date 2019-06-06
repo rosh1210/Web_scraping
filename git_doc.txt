@@ -71,3 +71,19 @@ git status
     git status
 
 
+
+
+
+git checkout -- index.html
+(when u mess up any file and want to get old version back)
+git status
+
+Unstaging the file
+--------------------
+git log
+git add .
+git status
+(to remove file from staging area)
+git reset HEAD filename
+git status
+
